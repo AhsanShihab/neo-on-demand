@@ -1,0 +1,27 @@
+{
+  "name": "neo-ondemand",
+  "version": "1.0.0",
+  "description": "A npm package to spin up a Neo4j database from NodeJS code",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare" : "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhsanShihab/neo-ondemand.git"
+  },
+  "keywords": [
+    "neo4j"
+  ],
+  "author": "Nazmul Ahsan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhsanShihab/neo-ondemand/issues"
+  },
+  "homepage": "https://github.com/AhsanShihab/neo-ondemand#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "files": ["lib/**/*"]
+}
