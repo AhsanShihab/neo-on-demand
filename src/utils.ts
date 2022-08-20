@@ -83,7 +83,7 @@ const downloadNeoCommunityEdition = async (version: string) => {
     url = `https://neo4j.com/artifact.php?name=neo4j-community-${version}-unix.tar.gz`;
     targetFile = `neo4j-community-${version}-unix.tar.gz`;
   }
-  console.log(`downloading community edition version ${version}`)
+  console.log(`downloading community edition version ${version}`);
   return _download(url, targetFile).then(() =>
     _extractDBFiles(targetFile, version)
   );
