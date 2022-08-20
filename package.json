@@ -2,7 +2,8 @@
   "name": "neo-ondemand",
   "version": "1.0.0",
   "description": "A npm package to spin up a Neo4j database from NodeJS code",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
