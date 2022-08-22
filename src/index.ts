@@ -143,4 +143,4 @@ class NeoDB {
   getHttpURL = () => `http://localhost:${this.httpPort}`;
 }
 
-export default NeoDB;
+export = NeoDB;
