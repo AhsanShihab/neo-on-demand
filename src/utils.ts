@@ -6,7 +6,7 @@ import { extract } from "tar";
 import AdmZip = require("adm-zip");
 
 const getNeoOndemandHomeDir = () => {
-  return join(homedir(), ".neo-ondemand");
+  return join(homedir(), ".neo-on-demand");
 };
 
 const _download = async (url: string, targetFile: string) => {

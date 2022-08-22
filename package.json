@@ -1,5 +1,5 @@
 {
-  "name": "neo-ondemand",
+  "name": "neo-on-demand",
   "version": "1.0.0",
   "description": "A npm package to spin up a Neo4j database from NodeJS code",
   "main": "lib/index.js",
