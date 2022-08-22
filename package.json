@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AhsanShihab/neo-ondemand.git"
+    "url": "git+https://github.com/AhsanShihab/neo-on-demand.git"
   },
   "keywords": [
     "neo4j"
