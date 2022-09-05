@@ -18,9 +18,9 @@
   "author": "Nazmul Ahsan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AhsanShihab/neo-ondemand/issues"
+    "url": "https://github.com/AhsanShihab/neo-on-demand/issues"
   },
-  "homepage": "https://github.com/AhsanShihab/neo-ondemand#readme",
+  "homepage": "https://github.com/AhsanShihab/neo-on-demand#readme",
   "devDependencies": {
     "@types/adm-zip": "^0.5.0",
     "@types/node": "^18.7.7",
