@@ -134,9 +134,13 @@ class NeoDB {
     });
   };
 
-  stop = () => {
+  stop = async () => {
     if (!this.persistData) this.cleanUp();
     this.dbProcess?.kill();
+    return new Promise((resolve) => {
+      if(!this.dbProcess) resolve(null);
+      this.dbProcess?.on("exit", () => resolve(null));
+    });
   };
 
   getBoltURL = () => `bolt://localhost:${this.boltPort}`;
